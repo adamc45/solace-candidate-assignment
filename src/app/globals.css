@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.flex-container-horizontal {
+	margin-top: 1em;
+	min-width:  500px;
+	display:  flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.flex-container-horizontal > * {
+	margin-right: 1em;
+}
+
+.flex-container-vertical {
+	margin-top:  1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+td {
+	text-align: center;
+	border: 1px solid;
+	min-width:  7em;
+}
+
+th {
+	text-align:  left;
+}
+
+span.error {
+	margin-top:  .5em;
+	color:  red;
+}
+
+.selector-container {
+	margin-left:  -.3em;
+}
